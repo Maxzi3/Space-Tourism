@@ -8,6 +8,7 @@ import Homepage from "./Pages/Homepage.jsx";
 import DestinationPage from "./Pages/DestinationPage.jsx";
 import CrewPage from "./Pages/CrewPage.jsx";
 import TechnologyPage from "./Pages/TechnologyPage.jsx";
+import NotFoundPage from "./Pages/NotFoundPage.jsx";
 import { BrowserRouter } from "react-router-dom";
 import BackgroundProvider from "./Components/BackgroundContext.jsx";
 
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="destination" element={<DestinationPage />} />
             <Route path="crew" element={<CrewPage />} />
             <Route path="technology" element={<TechnologyPage />} />
+            <Route path="*" element={<NotFoundPage/>} />
           </Route>
         </Routes>
       </BrowserRouter>

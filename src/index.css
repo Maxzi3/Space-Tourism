@@ -10,7 +10,11 @@
      /* @apply md:bg-bodyDesktop bg-bodyMobile bg-cover  */
   }
   body{
-  font-family: "Poppins", sans-serif;  }
+  font-family: "Poppins", sans-serif; 
+
+  background: url('/home/background-home-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
   .text-shadow {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
